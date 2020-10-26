@@ -14,7 +14,7 @@ function calculateCharge()
 
    var totalCharge = totalChargeOfBook + totalChargeOfDVD;
 
-   alert(`Your total charges of late fee will be $ ${totalCharge.toFixed}.`);
+   alert(`Your total charges of late fee will be $ ${totalCharge.toFixed(2)}.`);
 
 
 }
